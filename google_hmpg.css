@@ -1,13 +1,37 @@
-@import url('reset.css')
 
-/*#sticky {
+#sticky {
     position: sticky;
     top: 0;
-}*/
-
-#ggl_img {
-    width: 15 vw;
-    float:left;
-
+    display: flex;
+    max-height: 20rem;
 }
 
+#ggl_img {
+    width: 55 px;
+    height: auto;
+    background-color: black;
+}
+
+header div{
+    justify-content: space-evenly;
+    
+}
+
+#div_header1, #div_header3{
+    flex-basis: 20%;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+#div_header2 {
+    flex-basis: 80%;
+    flex-grow: 2;
+    flex-shrink: 1;
+}
+
+@media (max-width: 768px){
+    header div{
+        flex-direction: column;
+        justify-content: center;
+    }
+}

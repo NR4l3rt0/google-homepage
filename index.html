@@ -5,7 +5,8 @@
 
     <title>Google-homepage-exercise</title>
 
-    <link href="./google_hmpg.css" rel="stylesheet">
+    <link href="reset.css" rel="stylesheet">
+    <link href="google_hmpg.css" rel="stylesheet">
     <!-- As if it were an exception, I'll use internal CSS for the <li> elements -->
     <style>
         li {
@@ -17,15 +18,16 @@
 <body>
     <header>
         <div id="sticky">
-            <div>
-                <a href="#" id="ggl_img"><img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="logo linking to google's main page"></a>
+            <div id="header_1">
+                <a href="#" id="ggl_img"><span><img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="logo linking to google's main page"></a></span>
             </div>
-            <div>
+            <div id="header_2">
                 <label for="searching_bar">
                     <input id="searching_bar" type="text" placeholder="build this page">
                 </label>
 
             </div>
+            <div id="header_3">
                 <button type="button"><a href="#"></a></button>
                 <button id="Sign_in" type="button"><a href="#">Sign in</a></button>
             </div>
