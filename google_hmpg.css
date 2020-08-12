@@ -3,7 +3,9 @@ header{
     padding: 0.5em 0.5em;
     height: 4em;
     position: sticky;
+    background-color: whitesmoke;
     top: 0;
+
 }
 
 
@@ -12,7 +14,10 @@ header{
     flex-wrap: wrap;
     align-items: center;
     height: 4em;
+
+    justify-content: space-evenly;
 }
+
 
 #ggl_logo {
     width:  7em;
@@ -20,9 +25,6 @@ header{
 }
 
 
-.header_2 {
-    flex:2;
-}
 
 #searching_bar{
     border-radius: 15em;
@@ -32,9 +34,13 @@ header{
 
 #sign_in{
     background-color: rgb(25, 96, 202);
-    color: white;
     height: 2em;
     width: 5em;
+    border-radius: 20%;
+}
+
+#sign_in span{
+    color: white;
 }
 
 #apps {
@@ -45,50 +51,156 @@ header{
 #apps :hover{
     background-color: rgb(197, 194, 194);
 }
-/*
-.div_header3{
-    margin-left: auto;
+
+div .main_navbar{
+    display:flex;
+    justify-content: space-evenly;
 }
-/*
-@media (max-width: 768px){
+
+.main_navbar div ul{
+    display: flex;
+}
+
+.main_navbar li{
+    margin:0.5em;
+}
+
+
+@media (max-width: 634px){
     header{
         display: flex;
         width:100%;
-        background-color: blue;
-        display: flex;
-        height: 9em;
+        height: 8em;
+        align-items: stretch;
     }
 
-    #flex_container{
-        background-color: red;
-    }
-    #header_1{
-        background-color: yellow;
-    }
-    #header_2{
-        background-color: purple;
-    }
-    #header_3{
-        background-color: green;
-    }
-    header div {
-        flex-direction: column;
-        margin: 1em auto;
-        background-color: rgb(0, 255, 242);
+    #flex_header{
+        flex-wrap: wrap;
+        justify-content: space-evenly;
     }
 
     #main_navbar nav{
         display: flex;
     }
 
+    .main_navbar li{
+        margin:0.2em;
+    }
+
+    #video_part{
+        display: flex;
+        justify-content: center;
+    }
 
 
 }
 
-.main_navbar {
+body div main{
+    margin: 1em 7em 1em 5em;
+}
+
+main{
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+section{
+    margin-top: 2em;
+}
+
+article{
+    margin-top: 1.5em;
+}
+
+article p, article h2{
+    margin: 0.3em 0em;
+}
+
+.headers_head p, article p{
+    font-size: 0.9em;
+}
+
+.headers_head > h2 > a{
+    text-decoration: none;
+}
+
+
+#section div p{
+    font-size: 1.1em;
+    font-weight: 500;
+    margin: 0.5em;
+}
+
+#video_part{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#video_part div{
+    background-color: thistle;
+    margin: 1em;
+}
+
+#video_part video{
+    background-color: yellowgreen;
+}
+
+#down {
+    display:flex;
+    color: darkslategray;
+    font-style: italic;
+    font-size: 0.8em;
+
+}
+
+table{
+    width:20em;
+}
+
+#linked_table, th, td{
+    padding: 0.4em 0em 0.4em 0.4em;
+    border: 1px solid grey;    
+}
+
+table td span{
+    float:right;
+    background-color: khaki;
+    padding-right:1em;
+}
+
+table th{
+    text-align: left;
+    font-size: 1.1em;
+}
+
+
+
+
+#grouped_buttons{
+    display: flex;
+    padding: 1em;
+}
+
+#grouped_buttons div{
+    margin:0.2em;
+}
+
+#grouped_buttons button{
+    border-radius: 35%;
+}
+
+
+#link_images{
     display: flex;
 }
 
-.main_navbar nav{
-    
-} */
+#link_images div{
+    height: 7em;
+    width: 4em;
+    margin: 0.3em;
+    background-color: lemonchiffon;
+}
+
+#btn_img_a a{
+    text-decoration: none;
+}

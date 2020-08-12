@@ -15,6 +15,7 @@
         }
     </style>
 </head>
+
 <body>
     <header>
         <div id="flex_header">
@@ -28,7 +29,7 @@
             </div>
             <div class="header_3">
                 <button id="apps" type="button"><a href="#">...</a></button>
-                <button id="sign_in" type="button"><a href="#">Sign in</a></button>
+                <button id="sign_in" type="button"><a href="#"><span>Sign in</span></a></button>
             </div>
         </div>
     </header>
@@ -44,7 +45,7 @@
                     <li><a href="#">More</a></li>
                 </ul>
             </div>
-            </div>
+            <div>
                 <ul>
                     <li><a href="#">Settings</a></li>
                     <li><a href="#">Tools</a></li>
@@ -52,11 +53,13 @@
             </div>
         </nav>
         <hr>
+    </div>
+    <div id="after_nav">
         <main>
             <section>
                 <article>
                     <div>
-                        <div class="header's head">
+                        <div class="headers_head">
                             <p><span>Little link and option to cache</span></p>
                             <h2><a href="#">Title of the link 1</a></h2>
                         </div>
@@ -67,7 +70,7 @@
                 </article>
                 <article>
                     <div>
-                        <div class="header's head">
+                        <div class="headers_head">
                             <p><span>Little link and option to cache</span></p>
                             <h2><a href="#">Title of the link 2</a></h2>
                         </div>
@@ -79,112 +82,110 @@
             </section>
             <section>
                 <div>
-                    <div id="heading_video">
-                        <p>Video</p>
+                    <p>Videos</p>
+                </div>
+                <div id="video_part">
+                    <div>
+                        <div>
+                            <a href="#" target="_self">
+                                <video>
+                                    Video 1
+                                </video>
+                                <div>
+                                    Text about the video
+                                </div>
+                            </a>
+                        </div>
+                        <div id="down">
+                            <div>
+                                Title saying something
+                            </div>
+                            <div>
+                                Date
+                            </div>
+                        </div>
                     </div>
                     <div>
                         <div>
+                            <a href="#" target="_self">
+                                <video>
+                                    Video 2
+                                </video>
+                                <div>
+                                    Text about the video
+                                </div>
+                            </a>
+                        </div>
+                        <div id="down">
                             <div>
-                                <a href="#" target="_self">
-                                    <video>
-                                        Video 1
-                                    </video>
-                                    <div>
-                                        Text about the video
-                                    </div>
-                                </a>
+                                Title saying something
                             </div>
                             <div>
-                                <div>
-                                    Title saying something
-                                </div>
-                                <div>
-                                    Date
-                                </div>
+                                Date
                             </div>
                         </div>
+                    </div>
+                    <div>
                         <div>
-                            <div>
-                                <a href="#" target="_self">
-                                    <video>
-                                        Video 2
-                                    </video>
-                                    <div>
-                                        Text about the video
-                                    </div>
-                                </a>
-                            </div>
-                            <div>
+                            <a href="#" target="_self">
+                                <video>
+                                    Video 3
+                                </video>
                                 <div>
-                                    Title saying something
+                                    Text about the video
                                 </div>
-                                <div>
-                                    Date
-                                </div>
-                            </div>
+                            </a>
                         </div>
-                        <div>
+                        <div id="down">
                             <div>
-                                <a href="#" target="_self">
-                                    <video>
-                                        Video 3
-                                    </video>
-                                    <div>
-                                        Text about the video
-                                    </div>
-                                </a>
+                                Title saying something
                             </div>
                             <div>
-                                <div>
-                                    Title saying something
-                                </div>
-                                <div>
-                                    Date
-                                </div>
+                                Date
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
             <section>
-                <div>
-                    <div>
-                        <p>People also ask</p>
-                    </div>
-                    <div>
-                        <div>
+                <table id="linked_table">
+                    <tr>
+                        <th>People also ask</th>
+                    </tr>
+                    <tr>
+                        <td>
                             <div>
                                 <p>First question <span>botton</span></p>
                             </div>
-                        </div>
-                    </div>
-                    <div>
-                        <div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
                             <div>
                                 <p>Second question <span>botton</span></p>
                             </div>
-                        </div>
-                    </div>
-                    <div>
-                        <div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
                             <div>
                                 <p>Third question <span>botton</span></p>
                             </div>
-                        </div>
-                    </div>
-                    <div>
-                        <div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
                             <div>
                                 <p>Forth question <span>botton</span></p>
                             </div>
-                        </div>
-                    </div>
-                </div>
+                        </td>
+                    </tr>
+                </table>
             </section>
             <section>
                 <article>
                     <div>
-                        <div class="header's head">
+                        <div class="headers_head">
                             <p><span>Little link and option to cache</span></p>
                             <h2><a href="#">Title of the link 3</a></h2>
                         </div>
@@ -195,7 +196,7 @@
                 </article>
                 <article>
                     <div>
-                        <div class="header's head">
+                        <div class="headers_head">
                             <p><span>Little link and option to cache</span></p>
                             <h2><a href="#">Title of the link 4</a></h2>
                         </div>
@@ -206,7 +207,7 @@
                 </article>
                 <article>
                     <div>
-                        <div class="header's head">
+                        <div class="headers_head">
                             <p><span>Little link and option to cache</span></p>
                             <h2><a href="#">Title of the link 5</a></h2>
                         </div>
@@ -217,7 +218,7 @@
                 </article>
                 <article>
                     <div>
-                        <div class="header's head">
+                        <div class="headers_head">
                             <p><span>Little link and option to cache</span></p>
                             <h2><a href="#">Title of the link 6</a></h2>
                         </div>
@@ -227,41 +228,41 @@
                     </div>
                 </article>
             </section>
-            <section>
+            <section id="btn_img_a">
                 <div>
                     <div>
                         <p><a href="#">Images for build this webpage</a></p>
                     </div>
-                    <div>
+                    <div id="grouped_buttons">
                         <div>
-                            <button type="button">1</button>
+                            <button type="button"><a href="#">1</a></button>
                         </div>
                         <div>
-                            <button type="button">2</button>
+                            <button type="button"><a href="#">2</a></button>
                         </div>
                         <div>
-                            <button type="button">3</button>
+                            <button type="button"><a href="#">3</a></button>
                         </div>
                         <div>
-                            <button type="button">4</button>
+                            <button type="button"><a href="#">4</a></button>
                         </div>
                     </div>
-                    <div>
+                    <div id="link_images">
                         <div>   
-                            <a><img src="#" alt="Image for build this webpage section">1</a>
+                            <a href="#"><img src="#" alt="Image for build this webpage section" />1</a>
                         </div>
                         <div>
-                            <a><img src="#" alt="Image for build this webpage section">2</a>
+                            <a href="#"><img src="#" alt="Image for build this webpage section" />2</a>
                         </div>
                         <div>
-                            <a><img src="#" alt="Image for build this webpage section">3</a>    
+                            <a href="#"><img src="#" alt="Image for build this webpage section" />3</a>    
                         </div>
                         <div>
-                            <a><img src="#" alt="Image for build this webpage section">4</a>
+                            <a href="#"><img src="#" alt="Image for build this webpage section" />4</a>
                         </div>
                     </div>
                     <div>
-                        <p><a>More images for build this webpage</a></p>
+                        <a href="#"><p>More images for build this webpage</p></a>
                     </div>
                 </div>
             </section>
@@ -271,7 +272,7 @@
                         <p>Searches related to build this webpage</p>
                     </div>
                     <div>
-                        <a href="#">Link related 1</a>
+                        <a href="#"><span class= "glyphicon glyphicon-search"></span>Link related 1</a>
                     </div>
                     <div>
                         <a href="#">Link related 2</a>
