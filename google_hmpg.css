@@ -14,7 +14,6 @@ header{
     flex-wrap: wrap;
     align-items: center;
     height: 4em;
-
     justify-content: space-evenly;
 }
 
@@ -65,35 +64,6 @@ div .main_navbar{
     margin:0.5em;
 }
 
-
-@media (max-width: 634px){
-    header{
-        display: flex;
-        width:100%;
-        height: 8em;
-        align-items: stretch;
-    }
-
-    #flex_header{
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-    }
-
-    #main_navbar nav{
-        display: flex;
-    }
-
-    .main_navbar li{
-        margin:0.2em;
-    }
-
-    #video_part{
-        display: flex;
-        justify-content: center;
-    }
-
-
-}
 
 body div main{
     margin: 1em 7em 1em 5em;
@@ -204,3 +174,118 @@ table th{
 #btn_img_a a{
     text-decoration: none;
 }
+
+
+section #link_related{
+    display: flex;
+    flex-direction: column;
+}
+
+#link_related div{
+    margin: 0.3em;
+}
+
+#title_link{
+    font-size: 1.1em;
+    font-weight: 500;
+    margin: 0.2em;
+}
+
+#link_related  a{
+    text-decoration: none;
+}
+
+
+#moving_through_pages div{
+    width: 20em;
+    height: 5em;
+    font-size: 1em;
+    display: flex;
+    margin: 0.3em; 
+}
+
+#moving_through_pages a{
+    text-decoration: none;
+}
+
+
+#moving_through_pages div div{
+    justify-content: center;
+}
+
+#moving_through_pages div div a{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#moving_through_pages a :first-child{
+    font-size: 2.5em;
+}
+
+#moving_through_pages a :last-child{
+    font-size: 1em;
+}
+
+#moving_through_pages button{
+    background-color: rgba(134, 23, 254, 0.3);
+    height: 3em;
+    width: 5em;
+    border-radius: 20%;
+    align-self: flex-end;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    background-color: rgb(114, 179, 245);
+    border: 1px solid rgb(59, 58, 58);
+}
+
+footer hr{
+    background-color: rgb(59, 58, 58);
+    height: 1px;
+    border:none;
+}
+
+
+#div1_footer, #div2_footer{
+    display:flex;
+    margin: 0.5em 2em 0.5em 5em;   
+}
+
+#div1_footer > p, #div2_footer > p{
+    margin: 0.2em 0.4em;
+    font-size: 0.8em;
+}
+
+
+@media (max-width: 634px){
+    header{
+        display: flex;
+        width:100%;
+        height: 8em;
+        align-items: stretch;
+    }
+
+    #flex_header{
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    #main_navbar nav{
+        display: flex;
+    }
+
+    .main_navbar li{
+        margin:0.2em;
+    }
+
+    #video_part{
+        display: flex;
+        justify-content: center;
+    }
+}
+
