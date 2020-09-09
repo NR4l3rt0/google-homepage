@@ -21,7 +21,7 @@ This is a HTML/CSS project from the Odin project course. In this case, one has t
  · Getting familiar with the use of HTML, CSS and responsive web design (with media queries and Flexbox).
 
 
-- Reflexion:
+- Reflection:
 
 It has been interesting to be able to check some intricacies that may appear when working with the media-queries since I had to be conscious of what effect I wanted to create, that is, if I wanted to work with the elements itself or with the containers (boxes).
 The target for this exercise were a medium-size and mobile screens.
