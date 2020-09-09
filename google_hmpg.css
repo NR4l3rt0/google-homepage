@@ -1,4 +1,17 @@
+/* This is the style sheet associated with the google-homepage project */
 
+/* The elements described below follow the order as a user would see them. 
+From top to bottom (and form left to right if there are in the same line (box) 
+
+Note that, in case it's required to used grid or other library/framework, it should be thought as:
+- Header
+- Some things in the middle: navbar div, main div with sections
+- Footer
+
+*/
+
+
+/* Header section */
 header{
     padding: 0.5em 0.5em;
     height: 4em;
@@ -51,6 +64,15 @@ header{
     background-color: rgb(197, 194, 194);
 }
 
+
+
+/* 
+******  End header ******** 
+
+Start navbar 
+*/
+
+
 div .main_navbar{
     display:flex;
     justify-content: space-evenly;
@@ -65,6 +87,12 @@ div .main_navbar{
 }
 
 
+/* 
+******  End navbar ******** 
+
+Start main 
+*/
+
 body div main{
     margin: 1em 7em 1em 5em;
 }
@@ -77,6 +105,10 @@ main{
 section{
     margin-top: 2em;
 }
+
+
+
+/* ***** Articles ****** */
 
 article{
     margin-top: 1.5em;
@@ -94,6 +126,9 @@ article p, article h2{
     text-decoration: none;
 }
 
+
+
+/******* Videos ******** */
 
 #section div p{
     font-size: 1.1em;
@@ -123,6 +158,11 @@ article p, article h2{
 
 }
 
+
+
+
+/* ****** Table with question after the videos ***** */
+
 table{
     width:20em;
 }
@@ -145,6 +185,7 @@ table th{
 
 
 
+/*  After the second section of text, this are the buttons with image-links */
 
 #grouped_buttons{
     display: flex;
@@ -176,6 +217,8 @@ table th{
 }
 
 
+/* *** link related section **** */ 
+
 section #link_related{
     display: flex;
     flex-direction: column;
@@ -195,6 +238,11 @@ section #link_related{
     text-decoration: none;
 }
 
+
+
+/* 
+Movement to other pages --- google letters
+*/
 
 #moving_through_pages div{
     width: 20em;
@@ -236,6 +284,11 @@ section #link_related{
     align-self: flex-end;
 }
 
+
+
+
+/* ********* Start of the footer part ********* */
+
 footer{
     display: flex;
     flex-direction: column;
@@ -261,6 +314,10 @@ footer hr{
     font-size: 0.8em;
 }
 
+
+
+
+/* ****** responsiveness with media queries ******* */
 
 @media (max-width: 634px){
     header{
